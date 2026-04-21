@@ -22,7 +22,7 @@ from pathlib import Path
 import numpy as np
 import yaml
 
-from src.priors.build_base_priors import DIAGNOSES, REGIONS
+from src.utils import DIAGNOSES, REGIONS
 from src.utils import PROCESSED_DIR, RAW_DIR, ensure_dirs
 
 logger = logging.getLogger(__name__)

@@ -25,7 +25,7 @@ from src.inference.naive_bayes import (
     SYMPTOM_FEATURES,
     TravellerFeverModel,
 )
-from src.priors.build_base_priors import REGIONS
+from src.utils import REGIONS
 from src.utils import CLINICAL_DIR, PROCESSED_DIR
 
 # ---------------------------------------------------------------------------
